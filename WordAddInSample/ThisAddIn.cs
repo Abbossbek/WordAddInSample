@@ -16,19 +16,6 @@ namespace WordAddInSample
         {
 
         }
-        //private void AddButtonsToMenu()
-        //{
-        //    RibbonButton tempButton = Globals.Factory.GetRibbonFactory().CreateRibbonButton();
-        //    tempButton.Label = "Button 1";
-        //    tempButton.ControlSize =
-        //        Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-        //    tempButton.Description = "My Ribbon Button";
-        //    tempButton.ShowImage = true;
-        //    tempButton.Image = Properties.Resources.Горы;
-        //    tempButton.KeyTip = "A1";
-        //    Globals.Ribbons.GetRibbon(Ribbon).Add(tempButton);
-
-        //}
         private void ThisAddIn_Shutdown(object sender, System.EventArgs e)
         {
         }
